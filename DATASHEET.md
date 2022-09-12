@@ -1,8 +1,8 @@
-# Datasheet: *Your Dataset Name Here*
+# Datasheet: *FitBit Fitness Tracker Data*
 
-Author: *Your Name Here*
+Author: *Dhanya George Koottummel*
 
-Organization: *Your Organization Here*
+Organization: *School of Information, UC Berkeley*
 
 
 ## Motivation
@@ -11,19 +11,20 @@ Organization: *Your Organization Here*
 
 1. **For what purpose was the dataset created?** Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.
 
-	*Your Answer Here*
+	*The goal of creating the datasets was to create methods for remotely collecting data and establishing a link between self-reported survey responses and biometric data from consumer wearble devices, resulting in a de-identified and linked dataset*
 
 2. **Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g. company, institution, organization)**?
 
-	*Your Answer Here*
+	*The Fitbit datasets was part of a study done by Brinton J, Keating M, Ortiz, Evenson K, and Furberg R for a study titled "
+Establishing Linkages Between Distributed Survey Responses and Consumer Wearable Device Datasets: A Pilot Protocol". This was done on behalf of RTI International which is a non-profit research organization.*
 
 3. **What support was needed to make this dataset?** (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)
 
-	*Your Answer Here*
+	*The dataset was created for a study as mentioned above and the study was funded by iSHARE iinovation, research, and development project. Source: researchprotocols.org*
 
 4. **Any other comments?**
 
-	*Your Answer Here*
+	*The dataset was collected from a total of 30 people. They were recruited omn Mechanical Turk Prime and they were asked to complete a survey online. They were then asked to connect their personal Fitbit to a third party application called Fitabase to gather the data.*
 
 
 ## Composition
@@ -32,7 +33,7 @@ Organization: *Your Organization Here*
 
 1. **What do the instances that comprise the dataset represent (e.g. documents, photos, people, countries)?** Are there multiple types of instances (e.g. movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.
 
-	*Your Answer Here*
+	*The dataset is made up of different types of data that form *
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
