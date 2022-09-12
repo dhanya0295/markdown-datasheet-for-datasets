@@ -4,7 +4,9 @@ Author: *Dhanya George Koottummel*
 
 Organization: *School of Information, UC Berkeley*
 
-
+https://www.researchprotocols.org/2017/4/e66/
+https://zenodo.org/record/53894#.Yx65oXbMK3A
+https://www.kaggle.com/datasets/salihobaid/fitbit-datasets-0312201605122016
 ## Motivation
 
 *The questions in this section are primarily intended to encourage dataset creators to clearly articulate their reasons for creating the dataset and to promote transparency about funding interests.*
@@ -33,27 +35,37 @@ Establishing Linkages Between Distributed Survey Responses and Consumer Wearable
 
 1. **What do the instances that comprise the dataset represent (e.g. documents, photos, people, countries)?** Are there multiple types of instances (e.g. movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.
 
-	*The dataset is made up of different types of data that form *
+	*The dataset is made up of different types of data in 11 different csv files. Each file maintains personal health information like daily activities, heartrate, calories, hourlt intensities, steps, sleep timings, and weight of the people who participated in the survey. *
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
-	*Your Answer Here*
+	*daily activity - 458
+	heartrate per second merged -1048576
+	hourly calories merged - 24085
+	hourly intensity merged - 24085
+	hourly steps merged - 24085
+	minute calories narrow merged - 1048576
+	minute intensities narrow - 1048576
+	minute METs narrow merged - 1048576
+	minute sleep merged - 198560
+	minute steps narrow - 1048576
+	weight log info - 34*
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
 
-	*Your Answer Here*
+	*The dataset is not a sample of a larger dataset. This dataset was created for a study that target at establishing links between self-reported survey responses and consumer wearable device biometric data. For this 30 users were selected and data was collected only from them. The link could be successfully established with the 30 people.*
 
 4. **What data does each instance consist of?** "Raw" data (e.g. unprocessed text or images) or features? In either case, please provide a description.
 
-	*Your Answer Here*
+	*Each instance contains a fitbit recording of every activity that fitbit records. The dataset contains the following data for each instance - daily activities, steps covered, heartrate, calories, intensity, sleep information, and weight information. The collected data has been processed and has been organized into different csv files containing activity data, heartrate and sleep data.*
 
 5. **Is there a label or target associated with each instance?** If so, please provide a description.
 
-	*Your Answer Here*
+	*Each instance can be identified by a unique id that is associated with each entry. The id uniquely idenitifies the fitbit user.*
 
 6. **Is any information missing from individual instances?** If so, please provide a description, explaining why this information is missing (e.g. because it was unavailable). This does not include intentionally removed information, but might include, e.g. redacted text.
 
-	*Your Answer Here*
+	*Hourly steps and hourly calories are missing from certain instances and these have been logged as 0.*
 
 7. **Are relationships between individual instances made explicit (e.g. users' movie ratings, social network links)?** If so, please describe how these relationships are made explicit.
 
