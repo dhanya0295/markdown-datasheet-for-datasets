@@ -162,7 +162,7 @@ mturkfitbitexport3.12.16-4.11.16.zip - (1 month’s retrospective)*
 
 12. **If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?** If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate).
 
-	*Your Answer Here*
+	*The users were given an opportunity to cancel their registration in Fitabase while participating in the dataset collection. There is no mechanism to cancel the registration or revoke the data once the dataset is published.*
 
 13. **Has an analysis of the potential impact of the dataset and its use on data subjects (e.g. a data protection impact analysis) been conducted?** If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.
 
@@ -179,19 +179,19 @@ mturkfitbitexport3.12.16-4.11.16.zip - (1 month’s retrospective)*
 
 1. **Was any preprocessing/cleaning/labeling of the data done (e.g. discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?** If so, please provide a description. If not, you may skip the remainder of the questions in this section.
 
-	*Your Answer Here*
+	*Yes, the dataset was cleaned and uploaded on Zenodo. The data was divided into 2 folders, each containing data collected over one month. The first folder contains retrospective data and the second folder contains prospective data. The folders contain separate csv files with each file having physical activities, heart rate, and sleep hours data.*
 
 2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (e.g. to support unanticipated future uses)?** If so, please provide a link or other access point to the "raw" data.
 
-	*Your Answer Here*
+	*The data that is collected from Fitabase is cleaned and labeled. This data can hiwever be used for future uses as no data has been removed.*
 
 3. **Is the software used to preprocess/clean/label the instances available?** If so, please provide a link or other access point.
 
-	*Your Answer Here*
+	*The entire data is available from Fitabase and no additional cleaning was required.*
 
 4. **Any other comments?**
 
-	*Your Answer Here*
+	*N/A*
 
 
 ## Uses
@@ -200,27 +200,28 @@ mturkfitbitexport3.12.16-4.11.16.zip - (1 month’s retrospective)*
 
 1. **Has the dataset been used for any tasks already?** If so, please provide a description.
 
-	*Your Answer Here*
+	*Yes, the dataset was collected for a purpose. This has already been used for the study Establishing Linkages Between Distributed Survey Responses and Consumer Wearable Device Datasets: A Pilot Protocol by Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa*
 
 2. **Is there a repository that links to any or all papers or systems that use the dataset?** If so, please provide a link or other access point.
 
-	*Your Answer Here*
+	*There is no repository that links all the papers that use this dataset. However a few studies that were conducted using this dataset can be found on kaggle.som. The studies are Bellabet case study -Julen Aranguren: https://www.kaggle.com/julenaranguren/bellabeat-case-study
+Bellabet Case Study with R -Anastasiia Chebotina: https://www.kaggle.com/chebotinaa/bellabeat-case-study-with-r*
 
 3. **What (other) tasks could the dataset be used for?**
 
-	*Your Answer Here*
+	*The data set contains physical activity details and details like heart rate, sleep hours etc. Hence tha dataset can be used for studies dealing with sleep such as sleep pattern of people, REM sleep cycles, routine analysis, human behavioral analysis etc.*
 
 4. **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g. stereotyping, quality of service issues) or other undesirable harms (e.g. financial harms, legal risks) If so, please provide a description. Is there anything a future user could do to mitigate these undesirable harms?
 
-	*Your Answer Here*
+	*The dataset does not identify the gender, age, or any other personally identifiable details of the users.*
 
 5. **Are there tasks for which the dataset should not be used?** If so, please provide a description.
 
-	*Your Answer Here*
+	*N/A*
 
 6. **Any other comments?**
 
-	*Your Answer Here*
+	*N/A*
 
 
 ## Distribution
