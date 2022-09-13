@@ -4,9 +4,6 @@ Author: *Dhanya George Koottummel*
 
 Organization: *School of Information, UC Berkeley*
 
-https://www.researchprotocols.org/2017/4/e66/
-https://zenodo.org/record/53894#.Yx65oXbMK3A
-https://www.kaggle.com/datasets/salihobaid/fitbit-datasets-0312201605122016
 ## Motivation
 
 *The questions in this section are primarily intended to encourage dataset creators to clearly articulate their reasons for creating the dataset and to promote transparency about funding interests.*
@@ -69,47 +66,53 @@ Establishing Linkages Between Distributed Survey Responses and Consumer Wearable
 
 7. **Are relationships between individual instances made explicit (e.g. users' movie ratings, social network links)?** If so, please describe how these relationships are made explicit.
 
-	*Your Answer Here*
+	*Yes, the relationship between individual instances have been made explicit by using their IDs. Each instance has an ID that uniquely identifies the fitbit user. All the data associated with a particular user have the same unique ID.*
 
 8. **Are there recommended data splits (e.g. training, development/validation, testing)?** If so, please provide a description of these splits, explaining the rationale behind them.
 
-	*Your Answer Here*
+	*Yes, the data has already been split into physical activity, heart rate and sleep monitoring.*
 
 9. **Are there any errors, sources of noise, or redundancies in the dataset?** If so, please provide a description.
 
-	*Your Answer Here*
+	*No there are no error, sources of noise or redundancies in the data.*
 
 10. **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)?** If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.
 
-	*Your Answer Here*
+	*The data is not self-contained. This original complete dataset was uploaded to Zenodo by Robert Furberg, Julia Brinton, Michael Keating, Alexa Ortiz on 05/31/2016 and it was dicided into two folders each folder contains roughly one month's worth of user-submitted data:
+mturkfitbitexport4.12.16-5.12.16.zip - (1 month’s prospective data)
+mturkfitbitexport3.12.16-4.11.16.zip - (1 month’s retrospective)* 
+
+*The dataset uploaded to Kaggle by Möbius is only the first folder named (mturkfitbitexport4.12.16-5.12.16.zip), which contains data from 12/04/2016 to 12/05/2016, and this dataset contains the retrospective data (mturkfitbitexport3.12.16-4.11.16.zip).*
+
+*Souce: Crowd-sourced Fitbit datasets, kaggle.com*
 
 11. **Does the dataset contain data that might be considered confidential (e.g. data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)?** If so, please provide a description.
 
-	*Your Answer Here*
+	*The dataset contains personal health, physical activity information of the users. Collection of the data need to be approved by the users. All the participants in the study were 18 years of above, and was willing to give the research team access to their fitbit data for the previous month and the upcoming month. Data was collected only after the electronic consent form was signed.*
 
 12. **Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?** If so, please describe why.
 
-	*Your Answer Here*
+	*No*
 
 13. **Does the dataset relate to people?** If not, you may skip the remaining questions in this section.
 
-	*Your Answer Here*
+	*Yes, the dataset contains physical activity, heart rate, and sleep hours of 30 people.*
 
 14. **Does the dataset identify any subpopulations (e.g. by age, gender)?** If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.
 
-	*Your Answer Here*
+	*No, the dataset does not identify subpopulations.*
 
 15. **Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** If so, please describe how.
 
-	*Your Answer Here*
+	*Individuals cannot be identified using the data collected as only details like steps, heart rate, sleep hours etc. are collected.*
 
 16. **Does the dataset contain data that might be considered sensitive in any way (e.g. data that reveals racial or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?** If so, please provide a description.
 
-	*Your Answer Here*
+	*Personally identifiable data has not been collected.*
 
 17. **Any other comments?**
 
-	*Your Answer Here*
+	*N/A*
 
 
 ## Collection
@@ -118,43 +121,44 @@ Establishing Linkages Between Distributed Survey Responses and Consumer Wearable
 
 1. **How was the data associated with each instance acquired?** Was the data directly observable (e.g. raw text, movie ratings), reported by subjects (e.g. survey responses), or indirectly inferred/derived from other data (e.g. part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.
 
-	*Your Answer Here*
+	*The dataset was collected through a wearble device (Fitbit). The data collected is not directly observable. Each person part of the study was required to  keep track of their own weight, diet, or exercise routine or keep track of their own blood pressure, blood sugar, sleep patterns, headaches, or some other health-related indicator. Since the data is recorded by the fitness device the data does not need to be validated.*
 
 2. **What mechanisms or procedures were used to collect the data (e.g. hardware apparatus or sensor, manual human curation, software program, software API)?** How were these mechanisms or procedures validated?
 
-	*Your Answer Here*
+	*To create the data, each of the 30 users (MTurkers via Amazon's Mechanical Turk platform) was required to have a wearable device - fitbit which monitored steps, physical activity, herat rate, and sleep hours. Participants were initially required to read a short task description and compensation information on Mturk's research studies advertisement page. Interested participants were asked to click on a link directing them to a series of eligibility questions. The participants were asked to complete an electronic consent form and then given a unique participant ID. A health questionnaire was to be filled and at the end of the questionnaire willingness to allow researchers to download the Fitbit data was asked. Upon consent participants were routed to a third party data service provider called Fitabase LLC, which can access and aggregate self-tracker data. A unique Fitabase link was provided for each participant. Fitabase provided the required data to the researchers.*
 
 3. **If the dataset is a sample from a larger set, what was the sampling strategy (e.g. deterministic, probabilistic with specific sampling probabilities)?**
 
-	*Your Answer Here*
+	*Fitabase provided both raw and aggregate data and hence separate sampling strategy was not required.*
 
 4. **Who was involved in the data collection process (e.g. students, crowdworkers, contractors) and how were they compensated (e.g. how much were crowdworkers paid)?**
 
-	*Your Answer Here*
+	*The data was collected from 30 participants (Mturkerrs) via Amazon's Mechanical Turk Platform. Mturkers are a workforce of individuals willing to participate in online research studies in exchange for money deposited into their Amazon.com personal account. An eligible Mturker must also be at least 18 years of age, regularly wear a Fitbit, and be willing to give the research team access to their Fitbit data for the previous month and the upcoming month from the date of sign-up. Upon completion of the Fitabase sign-up, participants will be given $10 via Mturk Prime’s customer service team.*
+	*Source: Establishing Linkages Between Distributed Survey Responses and Consumer Wearable Device Datasets: A Pilot Protocol, researchprotocols.com*
 
 5. **Over what timeframe was the data collected?** Does this timeframe match the creation timeframe of the data associated with the instances (e.g. recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created. Finally, list when the dataset was first published.
 
-	*Your Answer Here*
+	*The Crowd-sourced Fitbit datasets was collected from 03.12.2016 to 05.12.2016 and was part of a study done by Brinton J, Keating M, Ortiz A, Evenson K, Furberg R for a study titled: Establishing Linkages Between Distributed Survey Responses and Consumer Wearable Device Datasets: A Pilot Protocol. The original complete data is uploaded to Zenodo by Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa, on 05.12.2016. This timeframe matches the creation timeframe of the data associated with the instances.*
 
 7. **Were any ethical review processes conducted (e.g. by an institutional review board)?** If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.
 
-	*Your Answer Here*
+	*Yes, the dataset was created as part of a study and the study was reviewed and approved by the RTI International Institutional review board.*
 
 8. **Does the dataset relate to people?** If not, you may skip the remainder of the questions in this section.
 
-	*Your Answer Here*
+	*Yes*
 
 9. **Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g. websites)?**
 
-	*Your Answer Here*
+	*The dataset was obtained via the third party system kaggle.com. The original complete data is uploaded to Zenodo by Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa, on 05.12.2016.*
 
 10. **Were the individuals in question notified about the data collection?** If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.
 
-	*Your Answer Here*
+	*Data was collected from the participants after receiving signed electronic consent forms.*
 
 11. **Did the individuals in question consent to the collection and use of their data?** If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.
 
-	*Your Answer Here*
+	*Consent was obtained from the individuals before they could participate in the study. The interested participants were asked to click on a link from Mturk's research advertisement page. The link directed them to a series of eligibility questions. Once eligibility was established, the participants completed an electronic consent and became a part of the data collection panel. The participants were asked to complete a halth questionnaire and queries for their willingness to allow researchers to download their fitbit data. Upon consent the participants were routed to a third party data collection platform for data collection. Participants had the right to refuse to participate or cancel their registration anytime.*
 
 12. **If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?** If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate).
 
