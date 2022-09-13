@@ -230,7 +230,7 @@ Bellabet Case Study with R -Anastasiia Chebotina: https://www.kaggle.com/cheboti
 
 1. **Will the dataset be distributed to third parties outside of the entity (e.g. company, institution, organization) on behalf of which the dataset was created?** If so, please provide a description.
 
-	*Your Answer Here*
+	*Yes, the dataset was created on behalf of *
 
 2. **How will the dataset will be distributed (e.g. tarball on website, API, GitHub)?** Does the dataset have a digital object identifier (DOI)?
 
