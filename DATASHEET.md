@@ -36,16 +36,17 @@ Establishing Linkages Between Distributed Survey Responses and Consumer Wearable
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
-	*daily activity - 458
-	heartrate per second merged -1048576
-	hourly calories merged - 24085
-	hourly intensity merged - 24085
-	hourly steps merged - 24085
-	minute calories narrow merged - 1048576
-	minute intensities narrow - 1048576
-	minute METs narrow merged - 1048576
-	minute sleep merged - 198560
-	minute steps narrow - 1048576
+	*The number of instances per type is given below:
+	daily activity - 458;
+	heartrate per second merged -1048576;
+	hourly calories merged - 24085;
+	hourly intensity merged - 24085;
+	hourly steps merged - 24085;
+	minute calories narrow merged - 1048576;
+	minute intensities narrow - 1048576;
+	minute METs narrow merged - 1048576;
+	minute sleep merged - 198560;
+	minute steps narrow - 1048576;
 	weight log info - 34*
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
@@ -166,11 +167,11 @@ mturkfitbitexport3.12.16-4.11.16.zip - (1 month’s retrospective)*
 
 13. **Has an analysis of the potential impact of the dataset and its use on data subjects (e.g. a data protection impact analysis) been conducted?** If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.
 
-	*Your Answer Here*
+	*To my knowledge no such impact analysis was done on the use of the data on the subjects.*
 
 14. **Any other comments?**
 
-	*Your Answer Here*
+	*N/A*
 
 
 ## Preprocessing / Cleaning / Labeling
@@ -183,7 +184,7 @@ mturkfitbitexport3.12.16-4.11.16.zip - (1 month’s retrospective)*
 
 2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (e.g. to support unanticipated future uses)?** If so, please provide a link or other access point to the "raw" data.
 
-	*The data that is collected from Fitabase is cleaned and labeled. This data can hiwever be used for future uses as no data has been removed.*
+	*The data that is collected from Fitabase is cleaned and labeled. This data can however be used for future uses as no data has been removed.*
 
 3. **Is the software used to preprocess/clean/label the instances available?** If so, please provide a link or other access point.
 
@@ -213,7 +214,7 @@ Bellabet Case Study with R -Anastasiia Chebotina: https://www.kaggle.com/cheboti
 
 4. **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g. stereotyping, quality of service issues) or other undesirable harms (e.g. financial harms, legal risks) If so, please provide a description. Is there anything a future user could do to mitigate these undesirable harms?
 
-	*The dataset does not identify the gender, age, or any other personally identifiable details of the users.*
+	*The dataset does not identify the gender, age, or any other personally identifiable details of the users. Hence my assumption is that this dataset will not result in unfair treatment of individuals or groups.*
 
 5. **Are there tasks for which the dataset should not be used?** If so, please provide a description.
 
@@ -230,31 +231,27 @@ Bellabet Case Study with R -Anastasiia Chebotina: https://www.kaggle.com/cheboti
 
 1. **Will the dataset be distributed to third parties outside of the entity (e.g. company, institution, organization) on behalf of which the dataset was created?** If so, please provide a description.
 
-	*Yes, the dataset was created on behalf of *
+	*Yes, the dataset was created on behalf of of RTI International which is a non-profit research organization. It was originally uploaded on Zenodo. This is already distributed to a third party application Kaggle by Mobius.*
 
 2. **How will the dataset will be distributed (e.g. tarball on website, API, GitHub)?** Does the dataset have a digital object identifier (DOI)?
 
-	*Your Answer Here*
+	*DOI- 10.5281/zenodo.53894*
 
 3. **When will the dataset be distributed?**
 
-	*Your Answer Here*
+	*Unknown*
 
 4. **Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?** If so, please describe this license and/or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions.
 
-	*Your Answer Here*
+	*Unknown*
 
 5. **Have any third parties imposed IP-based or other restrictions on the data associated with the instances?** If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions.
 
-	*Your Answer Here*
+	*Not to my knowledge*
 
 6. **Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?** If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any supporting documentation.
 
-	*Your Answer Here*
-
-7. **Any other comments?**
-
-	*Your Answer Here*
+	*Unknown*
 
 
 ## Maintenance
@@ -263,31 +260,31 @@ Bellabet Case Study with R -Anastasiia Chebotina: https://www.kaggle.com/cheboti
 
 1. **Who is supporting/hosting/maintaining the dataset?**
 
-	*Your Answer Here*
+	*The dataset is hosted by kaggle.*
 
 2. **How can the owner/curator/manager of the dataset be contacted (e.g. email address)?**
 
-	*Your Answer Here*
+	*Unknown. No data has been specified related to contacting the owners.*
 
 3. **Is there an erratum?** If so, please provide a link or other access point.
 
-	*Your Answer Here*
+	*No. To our knowledge, the creators have not published any list of corrections or errors in BookCorpus.*
 
 4. **Will the dataset be updated (e.g. to correct labeling errors, add new instances, delete instances)?** If so, please describe how often, by whom, and how updates will be communicated to users (e.g. mailing list, GitHub)?
 
-	*Your Answer Here*
+	*As far as I know, corrections, updates, and deletions will not happen on the dataset.Communication channels have not been established with users for notifying the users about updates.*
 
 5. **If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g. were individuals in question told that their data would be retained for a fixed period of time and then deleted)?** If so, please describe these limits and explain how they will be enforced.
 
-	*Your Answer Here*
+	*Unknown. The users were asked to sign an electronic conset form before the collection of the data. No data is available on the time period for which the data will be retained.*
 
 6. **Will older versions of the dataset continue to be supported/hosted/maintained?** If so, please describe how. If not, please describe how its obsolescence will be communicated to users.
 
-	*Your Answer Here*
+	*No communication channels have been set up with the users. The dataset is hosted on Kaggle.com. No further updates have been done on the data.*
 
 7. **If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?** If so, please provide a description. Will these contributions be validated/verified? If so, please describe how. If not, why not? Is there a process for communicating/distributing these contributions to other users? If so, please provide a description.
 
-	*Your Answer Here*
+	*N/A. The data cannot be updated.*
 
 8. **Any other comments?**
 
