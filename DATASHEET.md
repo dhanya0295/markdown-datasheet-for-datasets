@@ -268,7 +268,7 @@ Bellabet Case Study with R -Anastasiia Chebotina: https://www.kaggle.com/cheboti
 
 3. **Is there an erratum?** If so, please provide a link or other access point.
 
-	*No. To our knowledge, the creators have not published any list of corrections or errors in BookCorpus.*
+	*No. To my knowledge, the creators have not published any list of corrections or errors in Fitbit Dataset.*
 
 4. **Will the dataset be updated (e.g. to correct labeling errors, add new instances, delete instances)?** If so, please describe how often, by whom, and how updates will be communicated to users (e.g. mailing list, GitHub)?
 
